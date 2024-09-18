@@ -3,6 +3,7 @@ from config import config
 
 MODELS = {
     "UNet.pth": "bdsqlsz/qinglong_controlnet-lllite/Annotators",
+    "depth_anything_v2_vitl.pth": "depth-anything/Depth-Anything-V2-Large",
     "mobile_sam.pt": "dhkim2810/MobileSAM",
     "hrnetv2_w64_imagenet_pretrained.pth": "hr16/ControlNet-HandRefiner-pruned",
     "graphormer_hand_state_dict.bin": "hr16/ControlNet-HandRefiner-pruned",
